@@ -11,11 +11,11 @@ namespace BulkyWeb.Models
         public int Id { get; set; } //this the PK
         [Required]
         [DisplayName("Category Name")]
-        [MaxLength(30,ErrorMessage ="Are you Dump or did your brain fucked by someone Stopid?"),]
+        [MaxLength(30,ErrorMessage ="NOOOO?"),]
         public string Name { get; set; }
 
         [DisplayName("Display Order")]
-        [Range(1,100,ErrorMessage ="Display Order must be between 1-100 you dump idiot sack of shit")]
+        [Range(1,100,ErrorMessage ="NOOOO")]
         public int DisplayOrder { get; set; } 
     }
 }
